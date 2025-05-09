@@ -21,13 +21,13 @@ body {
     align-items: center;
     text-align: center;
     padding: 10px;
-    background: linear-gradient(to bottom, #c8daff, #2c4674);
+    background-color: #cbe0db;
     border: 4px #2c4674;
 }
 h1 {
-    font-size: 64px;
+    font-size: 24px;
     color: #2b3a61;
-    margin-top: 70px;
+    margin-top: 20px;
     font-family: 'Montserrat'
 }
 h2 {
@@ -85,42 +85,62 @@ margin-top: 51px;
     margin-left: -30px;
     border: none;
 }
-.botao2 {
-    transition: transform 0.5s ease;
-    position: relative;
-    bottom: 2px;
-    color: #2c4674;
-    width: 19px;
-    height: 19px;
-    border-radius: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 24px;
-    margin-top: -820px;
-    margin-left: 30px;
-    border: none;
+a {
+    text-decoration: none;
 }
-.botao3 {
+
+.Dogs {
     transition: transform 0.5s ease;
     position: relative; 
     bottom: 2px;
-    background-color: #2b3a61;
+    background-color: #519e8a;
     color: white;
-    width: 65px;
-    height: 65px;
-    border-radius: 50%;
+    width: 160px;
+    height: 50px;
+    border-radius: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 24px;
-    margin-top: -180px;
+    margin-top: -460px;
+    margin-right: 210px;
+    border: none;
+}
+.Cats {
+    transition: transform 0.5s ease;
+    position: relative; 
+    bottom: 2px;
+    background-color: #ffff;
+    color: #2c4674;
+    width: 160px;
+    height: 50px;
+    border-radius: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    margin-top: -460px;
+    margin-left: 210px;
+    border: none;
+}
+.back {
+    transition: transform 0.5s ease;
+    position: relative; 
+    bottom: 2px;
+    background-color: transparent;
+    color: #2c4674;
+    width: 40px;
+    height: 50px;
+    border-radius: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    margin-top: -600px;
+    margin-right: 330px;
     border: none;
 }
 i {
-    font-size: 30px;
+    font-size: 40px;
 }
 
-button:hover {
-    transform: rotate(90deg);
-}
