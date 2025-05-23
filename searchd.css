@@ -140,6 +140,7 @@ a {
     border-radius: 30px;
     width: 350px;
     height: 45px;
+    border: none;
 }
 i {
     font-size: 40px;
