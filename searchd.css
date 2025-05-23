@@ -1,5 +1,4 @@
 body {
-   
     margin: 0;
     padding: 0;
     display: flex;
@@ -27,13 +26,7 @@ body {
 h1 {
     font-size: 24px;
     color: #2b3a61;
-    margin-top: 20px;
-    font-family: 'Montserrat'
-}
-h2 {
-    font-size: 24px;
-    color: white;
-    margin: 10px 20px;
+    margin-top: 60px;
     font-family: 'Montserrat'
 }
 
@@ -102,7 +95,7 @@ a {
     justify-content: center;
     align-items: center;
     font-size: 24px;
-    margin-top: -460px;
+    margin-top: 100px;
     margin-right: 210px;
     border: none;
 }
@@ -119,7 +112,7 @@ a {
     justify-content: center;
     align-items: center;
     font-size: 24px;
-    margin-top: -460px;
+    margin-top: -50px;
     margin-left: 210px;
     border: none;
 }
@@ -136,9 +129,17 @@ a {
     justify-content: center;
     align-items: center;
     font-size: 24px;
-    margin-top: -600px;
+    margin-top: -265px;
     margin-right: 330px;
     border: none;
+}
+.searchbar {
+    position: relative;
+    margin-top: 20px;
+    background-color: transparent white;
+    border-radius: 30px;
+    width: 350px;
+    height: 45px;
 }
 i {
     font-size: 40px;
