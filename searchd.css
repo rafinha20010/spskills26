@@ -138,9 +138,10 @@ a {
     margin-top: 20px;
     background-color: transparent white;
     border-radius: 30px;
-    width: 350px;
+    width: 370px;
     height: 45px;
     border: none;
+    opacity: 75%;
 }
 i {
     font-size: 40px;
